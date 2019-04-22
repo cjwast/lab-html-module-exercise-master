@@ -1,0 +1,259 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 25px;
+  width: 100%;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left{
+  float: left;
+}
+
+.top-links {
+  /* display: inline-block; */
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-header{
+  width: 100%;
+  height: auto;
+  margin: 0%;
+  padding: 0%;
+  border: none;
+  display: inline-block;
+  background-color: rgb(50,92,122);
+}
+
+.bear-logo{
+  text-align: right;
+  vertical-align: middle;
+  float: right;
+}
+
+header{
+  background-color: rgb(50,92,122);
+  color: white;
+  background-image: url("/Users/cj.wast/code/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+  background-repeat: no-repeat;
+  background-position: 0,0; 
+  background-size: auto; 
+  height: 500px;
+}
+
+/* contenido con text e imagen */
+.center-content{
+  width: 75%;
+  margin: 0 auto;
+  height: 100%;
+  padding-top:50px;
+  position:relative;
+}
+
+/* boton de sign in */
+#sign-npm{
+  background-color: rgb(240, 146, 51);
+  height: 80px;
+  font-size:.7em;
+  text-align:center;
+  border: 0px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 50px 5% 0 5%;
+  padding: 10px;
+  width: auto;
+  text-decoration: none;
+  color: white;
+}
+
+
+#text-intro{
+  width: 50%;
+}
+
+#orgs-section{
+  background-color: rgb(39, 53, 71);
+  color: white;
+  height: 500px;
+}
+
+.orgs{
+  margin: 0 auto;
+  width: 1100px;
+  padding-top: 100px;
+  height: 100%;
+}
+
+#img-colaboration{
+  margin: 20 px;
+  width: 500px;
+}
+
+.text-right{
+  width: 500px;
+  float: right;
+}
+
+.text-right h2{
+  width: 350px;
+  font-weight: lighter;
+  font-size: 2em;
+}
+
+.bullets{
+  line-height: 35px;
+  padding: 10 px;
+  width: 400px;
+  margin: 30px;
+  color: gainsboro;
+}
+
+
+/* boton de sign in for orgs */
+.sign-npm-orgs{
+  background-color: rgb(203, 56, 55);
+  height: 80px;
+  font-size:1 em;
+  text-align:center;
+  border: 0px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 50px 5% 50px 5%;
+  padding: 10px 20px 10px 20px;
+  width: auto;
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+}
+
+.simple-link{
+  text-decoration: none;
+  color: white;
+}
+
+.float-text{
+  width: 150 px;
+  margin: 15px;
+}
+
+#what-is{
+  color: white;
+  background-image: url("/Users/cj.wast/code/lab-html-module-exercise-master/starter-code/images/forklift.svg");
+  background-repeat: no-repeat;
+  background-position: 0,0; 
+  background-size: auto; 
+  height: 500px;
+  position: relative;
+}
+
+.text-container{
+  width: 400px;
+  position: absolute;
+  top: 30px;
+  left: 10%;
+}
+
+.text-container h2{
+  width: 200px;
+  margin: 20px 20px 20px 0;
+  font-weight: lighter;
+}
+
+.text-container p {
+  line-height: 25px;
+  width: 330px;
+}
+
+/* boton de install*/
+.btn-install{
+  background-color: rgb(49, 68, 88);
+  height: 40px;
+  font-size:1 em;
+  text-align:center;
+  border: 0px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 10px 5% 50px 5%;
+  padding: 10px 20px 10px 20px;
+  width: auto;
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  top: 150px;
+}
+
+#what-can-you-make{
+  width: 100%;
+  height: 700px;
+}
+
+#what-can-you-make h2{
+  color: rgb(83, 88, 98);
+}
+
+#what-can-you-make h4{
+  margin: 20px;
+  color: rgb(83, 88, 98);
+}
+
+#what-can-you-make p{
+  padding-left: 50px;
+  padding-right: 50px;
+  color: rgb(135, 145, 156);
+}
+
+
+#what-can-you-make a{
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+
+#what-can-you-make span{
+  color: rgb(135, 145, 156);
+}
+
+.title-text{
+  width: 900px;
+  padding-top: 40px;
+  line-height: 60px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+.features{
+  width: 1000px;
+}
+
+.feature{
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.clearfix{
+  clear:both;
+}
